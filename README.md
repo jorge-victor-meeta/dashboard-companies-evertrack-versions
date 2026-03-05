@@ -13,14 +13,13 @@ Pandas, Pyodbc, Python-Dotenv
 
 
 ## Setup 
-in order to use the html page, you must create a .env file in the project root, with the following variables:
+in order to connect on the database and get the chart data you must create a .env file in the project root with the following variables:
 
 DB_SERVER=server IP
 DB_NAME=Database name
 DB_USER=Database User login
 DB_PASS=Database User Password
-OUTPUT_PATH=Output json data file path
-QUERY_PATH=Input SQL Query file 
+QUERY_PATH=Input SQL Query file
 
 ## Usage
-Run the get_data.py to generate the data.json, this json will feed the charts  
+Run the get_data.py to generate the data.json that feed the charts.
